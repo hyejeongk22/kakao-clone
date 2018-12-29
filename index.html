@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -13,7 +14,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header_top">
         <div class="header_column">
           <!-- plane icon -->
@@ -53,12 +54,10 @@
         <header class="friends_section-header">
           <h6 class="friends_section-title">My Profile</h6>
         </header>
-        <div class="friends_sectione-rows">
+        <div class="friends_section-rows">
           <div class="friends_section-row">
-            <a href="profile.html">
-              <img src="images/avatar.jpg" alt="" />
-              <span class="friends_section-name">Nicolas</span>
-            </a>
+            <img src="images/avatar.jpg" alt="" />
+            <a href="profile.html" class="friends_section-name"> Nicolas </a>
           </div>
           <div class="friends_section-row">
             <img src="images/avatar.jpg" alt="" />
@@ -66,14 +65,14 @@
           </div>
         </div>
       </section>
-      <section class="friends section">
+      <section class="friends_section">
         <header class="friends_section-header">
-          <h6 class="friends_section-title">My Profile</h6>
+          <h6 class="friends_section-title">Friends</h6>
         </header>
-        <div class="friends_sectione-rows">
-          <div class="friends_section-row">
+        <div class="friends_section-rows">
+          <div class="friends_section-row with-tagline">
             <div class="friends_section-column">
-              <img src="" alt="" />
+              <img src="images/avatar.jpg" alt="" />
               <span class="friends_section-name">LYNN</span>
             </div>
             <span class="friends-section-tagline"
@@ -84,7 +83,7 @@
       </section>
     </main>
     <nav class="tab-bar">
-      <a href="index.html" class="tab-bar_tab tab-bar_tab bar_tab-seleted">
+      <a href="index.html" class="tab-bar_tab tab-bar_tab-seleted">
         <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
       </a>
       <a href="chats.html" class="tab-bar_tab">
@@ -97,5 +96,8 @@
         <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
       </a>
     </nav>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
+    </div>
   </body>
 </html>

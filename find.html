@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Find</title>
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -13,7 +14,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header_top">
         <div class="header_column">
           <!-- plane icon -->
@@ -37,6 +38,7 @@
       <div class="header_bottom">
         <div class="header_column"><span class="header-text">Edit</span></div>
         <div class="header_column"><span class="header-text">Find</span></div>
+        <div class="header_column"></div>
       </div>
     </header>
     <main class="find">
@@ -46,11 +48,11 @@
           <span class="find_option-title">Find</span>
         </div>
         <div class="find_option">
-          <i class="fa fa-qrcode fa-2x"></i>
+          <i class="fa fa-qrcode fa-lg"></i>
           <span class="find_option-title">QR Code</span>
         </div>
         <div class="find_option">
-          <i class="fas fa-mobile-alt fa-2x"></i>
+          <i class="fas fa-mobile-alt fa-lg"></i>
           <span class="find_option-title">Shake</span>
         </div>
         <div class="find_option">
@@ -58,15 +60,11 @@
           <span class="find_option-title">Invite via SMS</span>
         </div>
       </section>
-      <section class="find-recommended">
-        <header>
-          <h6 class="recommended_title">Recommended Friends</h6>
-          <div class="recommended_none">
-            <span class="recommended_text"
-              >You have no recommended friends</span
-            >
-          </div>
-        </header>
+      <section class="find_recommended">
+        <header><h6 class="recommended_title">Recommended Friends</h6></header>
+        <div class="recommended_none">
+          <span class="recommended_text">You have no recommended friends</span>
+        </div>
       </section>
     </main>
     <nav class="tab-bar">
@@ -76,12 +74,15 @@
       <a href="chats.html" class="tab-bar_tab">
         <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
       </a>
-      <a href="find.html" class="tab-bar_tab bar_tab-seleted">
+      <a href="find.html" class="tab-bar_tab tab-bar_tab-seleted">
         <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
       </a>
       <a href="more.html" class="tab-bar_tab">
         <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
       </a>
     </nav>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
+    </div>
   </body>
 </html>
